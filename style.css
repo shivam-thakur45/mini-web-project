@@ -1,0 +1,312 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(252, 253, 253);
+    position: fixed;
+    color: rgb(11, 11, 83);
+}
+
+#logo{
+    height: 70%;
+}
+
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.icon:hover{
+   background-color: rgb(89, 89, 201);
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#cont{
+    text-align: center;
+}
+
+#login{
+    display: flex;
+}
+
+#try{
+    height: 20px;
+    color: rgb(11, 11, 59);
+    background-color: rgb(22, 184, 22);
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+#headerFake{
+    height: 13%;
+    width: 100%;
+    background-color: white;
+}
+
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2025/08/Frame-2-1-1.png?resize=1536,533);
+}
+
+#head{
+    height: 7%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(39, 16, 141);
+    background-color: white;
+}
+
+#page2{
+    background-color: rgb(255, 255, 255);
+    height: 87%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text:hover{
+   color: rgb(82, 71, 182);
+}
+
+#login:hover{
+   color: rgb(82, 71, 182);
+   background-color: cornflowerblue; 
+   border-radius: 45%;
+   height: 30px;
+   width: 65px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#try:hover{
+   background-color: rgb(62, 139, 79);
+}
+
+#cont:hover{
+     color: rgb(82, 71, 182);
+}
+
+#strip{
+    height: 8%;
+    width: 100%;
+    background-color: rgb(39, 25, 116);
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    color: white;
+    font-size: 25px;
+} 
+
+#strip h3{
+   font-weight: 400;
+    margin: 20px;
+}
+
+#strip u:hover{
+    color: rgb(201, 168, 255);
+}
+
+#box1{
+    width: 50%;
+    height: 80%;
+    /* background-color: aqua; */
+    margin: 15px;
+    margin-left: 45px;
+}
+
+#box2{
+    width: 50%;
+    height: 80%;
+    /* background-color: rgb(58, 67, 75); */
+    margin: 15px;
+}
+
+
+#page1 h1{
+    font-size: 50px;
+    margin-bottom: 4%;
+    display: flex;
+    text-align: center;
+    color: rgb(53, 60, 65);
+}
+
+#page1 h2{
+    font-size: 50px;
+    margin-bottom: 4%;
+    display: flex;
+    text-align: center;
+    color: rgb(26, 93, 141);
+}
+
+#page1 p{
+    font-size: x-large;
+    margin-bottom: 8%;
+    display: flex;
+    text-align: center;
+    color: rgb(125, 93, 155);
+}
+
+#botton{
+    height: 45px;
+    width: 160px;
+    margin-left: 60px;
+    color: azure;
+    background-color: rgb(11, 11, 245);
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    border-radius: 5%;
+}
+
+#botton:hover{
+    color: black;
+   background-color: rgb(103, 105, 223);
+}
+
+.card{
+    height: 330px;
+    width: 270px; 
+    border-radius: 15px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+#card1 img{
+    height: 190px;
+    width: 270px;
+    object-fit: cover;
+}
+
+#card2 img{
+    height: 190px;
+    width: 270px;
+    object-fit: cover;
+}
+
+#card3 img{
+    height: 190px;
+    width: 270px;
+    object-fit: cover;
+}
+
+#card4 img{
+    height: 190px;
+    width: 270px;
+    object-fit: cover;
+}
+
+
+#card1:hover img{ 
+   height: 190px;
+   width: 270px;
+}
+
+#head{
+    margin-top: 25px;
+}
+
+#page3{
+    height: 87%;
+    width: 100%;
+    background-color: white;
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=1536,469);
+    background-position: top;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#card1{
+      background-color: rgb(165, 208, 235);
+}
+
+#card2{
+      background-color:rgb(158, 212, 185) ;
+}
+
+#card3{
+      background-color: rgb(236, 189, 196);
+}
+
+#card4{
+      background-color:rgb(248, 201, 172);
+}
+
+.card h1{
+    margin-left: 15px;
+    margin-bottom: 14px;
+    font-size: larger;
+    color: rgb(37, 30, 75);
+    font-weight:bold;
+}
+
+.card h1:hover{
+    color: rgb(147, 19, 197);
+}
+
+.card p{
+    margin: 16px;
+    color: rgb(46, 45, 53);
+    font-size: 700;
+}
+
+.card u{
+    margin-left: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.card u:hover{
+    color: rgb(207, 0, 28);
+}
+
+#botton2{
+    height: 50px;
+    width: 230px;
+    color: rgb(50, 24, 163);
+    background-color: rgb(206, 206, 206);
+    border: 2px solid rgb(64, 37, 163);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+#botton2:hover{
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
